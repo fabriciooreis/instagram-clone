@@ -1,0 +1,286 @@
+@media (max-width: 877px) {
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    #content{
+        width: 90vw;
+        height:500px;
+        min-width: 450px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    section > article{
+        height: 73%;
+        
+    }
+    .login{
+        width: 350px;
+        min-width: 350px;
+        margin: 60px 10px 10px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid #ccc; 
+    }
+    .login > header, form{
+        width: 100%;
+        height: 25%;
+    }
+    
+    .sign-up{
+        width: 350px;
+        max-width: 350px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
+    .app{
+        border: unset;
+        height: 20px;
+        padding-bottom: 20px;
+    }
+    .sign-up p > a{
+        text-decoration: none;
+        color: #44a0f8;
+        font-weight: bolder;
+        font-size: 16px;
+    }
+    
+    .login > header{
+        width: 50%;
+        height: 80px;
+        padding-top: 32px;
+        border: unset;
+        margin-bottom: 28px;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    .form{
+        height: 270px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        /* border: 1px solid black; */
+    }
+    
+    form > input{
+        border: 1px solid #ccc;
+        padding: 10px 5px;
+        min-width: 265px;
+        font-size:14px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+    }
+    .form > input:focus{
+        outline: none;
+        color: #000;
+        font-size: 14px;
+        padding: 10px 5px;
+        border-color: #8a8a8a;
+    }
+    .btn{
+      width: 265px;
+      padding: 5px;
+      max-width: 265px;
+      font-family: verdana;
+      font-size: 20px;
+      border: unset;
+      border-radius: 5px;
+      background-color: #b3e0fc;
+      color: white;
+      margin-top: 8px;
+    }
+    span{
+        padding: 15px;
+        color: #8a8a8a;
+        font-size: 18px;
+    }
+    .facebook-link{
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #355086;
+    }
+    .esqueceu-senha{
+        text-decoration: none;
+        margin-bottom: 10px;
+        color: #355086;
+        font-size: 15px;
+    }
+    .get-app{
+        max-width: 350px;
+        width: 350px;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .get-app a{
+        display: block;
+        width: 40%;
+        height: 40%;
+        padding-left: 10px;
+    }
+}
+
+@media (min-width: 876px){
+    
+    .instagram-phone{
+        width: 400px;
+        min-width: 400px;
+        padding: 0;
+        background: url('../img/celularInstagram.png') no-repeat top center;
+        border: unset;
+        margin: 45px 10px 10px 0px;
+    }
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    #content{
+        width: 55vw;
+        height:800px;
+        min-width: 800px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    section > article{
+        height: 73%;
+        
+    }
+    .login{
+        width: 350px;
+        min-width: 350px;
+        margin: 60px 10px 10px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid #ccc; 
+    }
+    .login > header, form{
+        width: 100%;
+        height: 25%;
+    }
+    
+    .sign-up{
+        width: 350px;
+        max-width: 350px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
+    .app{
+        border: unset;
+        height: 20px;
+        padding-bottom: 20px;
+    }
+    .sign-up p > a{
+        text-decoration: none;
+        color: #44a0f8;
+        font-weight: bolder;
+        font-size: 16px;
+    }
+    
+    .login > header{
+        width: 50%;
+        height: 80px;
+        padding-top: 32px;
+        border: unset;
+        margin-bottom: 28px;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    .form{
+        height: 270px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        /* border: 1px solid black; */
+    }
+    
+    form > input{
+        border: 1px solid #ccc;
+        padding: 10px 5px;
+        min-width: 265px;
+        font-size:14px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+    }
+    .form > input:focus{
+        outline: none;
+        color: #000;
+        font-size: 14px;
+        padding: 10px 5px;
+        border-color: #8a8a8a;
+    }
+    .btn{
+      width: 265px;
+      padding: 5px;
+      max-width: 265px;
+      font-family: verdana;
+      font-size: 20px;
+      border: unset;
+      border-radius: 5px;
+      background-color: #b3e0fc;
+      color: white;
+      margin-top: 8px;
+    }
+    span{
+        padding: 15px;
+        color: #8a8a8a;
+        font-size: 18px;
+    }
+    .facebook-link{
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #355086;
+    }
+    .esqueceu-senha{
+        text-decoration: none;
+        margin-bottom: 10px;
+        color: #355086;
+        font-size: 15px;
+    }
+    .get-app{
+        max-width: 350px;
+        width: 350px;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .get-app a{
+        display: block;
+        width: 40%;
+        height: 40%;
+        padding-left: 10px;
+    }
+}
